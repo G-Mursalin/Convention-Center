@@ -11,6 +11,9 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
 }
+html {
+  font-size: 62.5%; /*1rem = 10px*/
+}
 
 ul,
 li {
@@ -23,9 +26,19 @@ a {
   text-decoration: none;
 }
 
-.set_img_fit {
+.set_object_fit {
   object-fit: cover;
 }
 /*------------------------------------*\
   #HEADER SECTION STYLES
 \*------------------------------------*/
+.meet_again-carousel-caption {
+  margin-bottom: 6rem;
+}
+.carousel-caption_heading {
+  font-size: 4.8rem;
+}
+.meet_again-btn {
+  padding: 1rem 4.35rem;
+  font-size: 1.6rem;
+}
