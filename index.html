@@ -169,6 +169,27 @@
     <!-- #Main Section -->
     <!-- ******************* -->
     <main>
+      <!-- Toasts -->
+      <div
+        class="toast align-items-center"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="false"
+        data-bs-delay="1000000"
+      >
+        <div class="d-flex fs-4">
+          <div class="toast-body">
+            <i class="fas fa-gift me-3 text-primary"></i>20% off on next booking
+          </div>
+          <button
+            type="button"
+            class="btn-close me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+
       <!-- Package Section -->
       <section id="package" class="container">
         <h1 class="text-center fw-bold heading package-heading">Our package</h1>
@@ -328,6 +349,7 @@
         </div>
       </section>
       <!-- FAQ Section -->
+
       <section id="faq">
         <h1 class="text-center fw-bold heading">Frequently Asked Questions</h1>
         <div
@@ -544,5 +566,13 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- JS For Toast -->
+    <script>
+      window.onload = (e) => {
+        const myAlet = document.querySelector(".toast");
+        const bsAlert = new bootstrap.Toast(myAlet);
+        bsAlert.show();
+      };
+    </script>
   </body>
 </html>

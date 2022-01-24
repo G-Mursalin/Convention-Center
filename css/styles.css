@@ -54,6 +54,16 @@ section {
 /*------------------------------------*\
   #PAKAGE SECTION STYLES
 \*------------------------------------*/
+/* Toasts */
+.toast {
+  margin-left: auto;
+  margin-top: 5rem;
+}
+.toast_bar {
+}
+.toast-body {
+  border-left: 6px solid #0d6efd;
+}
 .package-heading {
   margin: 6rem 0 14rem;
 }
