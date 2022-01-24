@@ -33,7 +33,10 @@ a {
   #HEADER SECTION STYLES
 \*------------------------------------*/
 .meet_again-carousel-caption {
-  margin-bottom: 6rem;
+  margin-bottom: 13rem;
+}
+.carousel-item_img {
+  height: 87vh;
 }
 .carousel-caption_heading {
   font-size: 4.8rem;
