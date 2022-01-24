@@ -13,6 +13,7 @@ body {
 }
 html {
   font-size: 62.5%; /*1rem = 10px*/
+  overflow-x: hidden;
 }
 
 ul,
@@ -106,4 +107,17 @@ section {
 }
 .accordion_container {
   margin-top: 8rem;
+}
+/*------------------------------------*\
+  #EXPLORE MORE SECTION STYLES
+\*------------------------------------*/
+/*------------------------------------*\
+  #FOOTER SECTION STYLES
+\*------------------------------------*/
+#footer {
+  background-color: #101d2c;
+  color: #ffff;
+  padding: 5rem 60rem;
+  text-align: center;
+  padding: 2% 10%;
 }
